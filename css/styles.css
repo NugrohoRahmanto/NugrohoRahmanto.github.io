@@ -17,7 +17,7 @@ Table Of Contents:
 - Copyright
 - Back To Top Button
 - Extra Pages
-- Media Queries
+- Media Queries24262a
 ******************************************/
 
 /*****************************************
@@ -521,7 +521,8 @@ input[type='checkbox'] {
 .header {
 	padding-top: 7rem;
 	padding-bottom: 5.5rem;
-	background: linear-gradient(rgba(0, 0, 0, 0.1), rgba(0, 0, 0, 0.1)), url('../images/header-background.jpg') center center no-repeat;
+	background-color: #24262a;
+	/* background: linear-gradient(rgba(0, 0, 0, 0.1), rgba(0, 0, 0, 0.1)), url('../images/header-background.jpg') center center no-repeat; */
 	background-size: cover;
 	text-align: center;
 }
@@ -559,7 +560,7 @@ input[type='checkbox'] {
 /*****************/
 .basic-1 {
 	padding-top: 7.75rem;
-	padding-bottom: 5.25rem;
+	padding-bottom: 6rem;
 }
 
 .basic-1 .text-container {
@@ -585,7 +586,7 @@ input[type='checkbox'] {
 /********************/
 .basic-2 {
 	padding-top: 7.75rem;
-	padding-bottom: 5.25rem;
+	padding-bottom: 6.25rem;
 }
 
 .basic-2 .h2-heading {
@@ -990,6 +991,7 @@ a:hover.back-to-top {
 }
 
 .col-lg-4 img{
+	height: 100%;
 	max-height: 5rem;
 	margin-bottom: 20px;
 	width: auto;
@@ -1236,6 +1238,10 @@ a:hover.back-to-top {
 	/* About */
 	.basic-1 .text-container.first {
 		margin-right: 2rem;
+	}
+	
+	.justify-text {
+		text-align: justify;
 	}
 
 	.basic-1 .text-container.second {
