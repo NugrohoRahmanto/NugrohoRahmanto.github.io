@@ -530,7 +530,7 @@ input[type='checkbox'] {
 .header .h1-large {
 	margin-bottom: 1.75rem;
 	color: #ffffff;
-	margin-top: -8rem;
+	/* margin-top: -8rem; */
 }
 
 .header .btn-solid-lg:hover {
@@ -1229,7 +1229,7 @@ a:hover.back-to-top {
 
 	/* Header */
 	.header {
-		padding-top: 18.25rem;
+		/* padding-top: 18.25rem; */
 		padding-bottom: 17.25rem;
 	}
 	/* end of header */
