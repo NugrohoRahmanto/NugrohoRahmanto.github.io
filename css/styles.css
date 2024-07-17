@@ -385,8 +385,10 @@ input[type='checkbox'] {
 }
 
 .navbar .logo-image img {
-    width: 118px;
-	height: 36px;
+    /* width: 118px;
+	height: 36px; */
+	height: 50px;
+	width: auto;
 }
 
 .navbar .logo-text {
@@ -430,12 +432,23 @@ input[type='checkbox'] {
 	color: #ffffff;
 	text-decoration: none;
 	transition: all 0.2s ease;
+	position: relative;
 }
 
 .navbar .nav-item.dropdown.show .nav-link,
 .navbar .nav-item .nav-link:hover,
 .navbar .nav-item .nav-link.active {
-	color: #9c9ead;
+	color: #cacbcf;
+	text-decoration: none;
+}
+.navbar .nav-item .nav-link.active::after {
+	content: '';
+	position: absolute;
+	width: 100%;
+	height: 2px;
+	background-color: currentColor;
+	left: 0;
+	bottom: -2px;
 }
 
 /* Dropdown Menu */
@@ -1049,7 +1062,7 @@ a:hover.back-to-top {
 
 	/* Navigation */
 	.navbar {
-		padding-top: 1.75rem;
+		padding-top: 0.5rem;
 		background-color: transparent;
 		box-shadow: none;
 		transition: all 0.2s;
